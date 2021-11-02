@@ -4,7 +4,7 @@
   $client_secret = "80g2yM_dgm
 ";
   $encText = urlencode("컴퓨터공학");
-  $url = "https://openapi.naver.com/v1/search/blog.xml?query=".$encText; // json 결과
+  $url = "https://openapi.naver.com/v1/search/news.json?query=".$encText; // json 결과
 //  $url = "https://openapi.naver.com/v1/search/blog.xml?query=".$encText; // xml 결과
   $is_post = false;
   $ch = curl_init();
