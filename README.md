@@ -1,1 +1,1 @@
-# projectfin
+# project-fin
